@@ -1,0 +1,10 @@
+C:\Users\Eng Xamiir\source\repos\Calculator-C1201041\Calculator-C1201041\bin\Debug\Calculator-C1201041.exe.config
+C:\Users\Eng Xamiir\source\repos\Calculator-C1201041\Calculator-C1201041\bin\Debug\Calculator-C1201041.exe
+C:\Users\Eng Xamiir\source\repos\Calculator-C1201041\Calculator-C1201041\bin\Debug\Calculator-C1201041.pdb
+C:\Users\Eng Xamiir\source\repos\Calculator-C1201041\Calculator-C1201041\obj\Debug\Calculator-C1201041.csproj.AssemblyReference.cache
+C:\Users\Eng Xamiir\source\repos\Calculator-C1201041\Calculator-C1201041\obj\Debug\Calculator_C1201041.Form1.resources
+C:\Users\Eng Xamiir\source\repos\Calculator-C1201041\Calculator-C1201041\obj\Debug\Calculator_C1201041.Properties.Resources.resources
+C:\Users\Eng Xamiir\source\repos\Calculator-C1201041\Calculator-C1201041\obj\Debug\Calculator-C1201041.csproj.GenerateResource.cache
+C:\Users\Eng Xamiir\source\repos\Calculator-C1201041\Calculator-C1201041\obj\Debug\Calculator-C1201041.csproj.CoreCompileInputs.cache
+C:\Users\Eng Xamiir\source\repos\Calculator-C1201041\Calculator-C1201041\obj\Debug\Calculator-C1201041.exe
+C:\Users\Eng Xamiir\source\repos\Calculator-C1201041\Calculator-C1201041\obj\Debug\Calculator-C1201041.pdb
