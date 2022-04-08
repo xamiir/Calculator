@@ -89,6 +89,7 @@ namespace Calculator_C1201041
             this.bntplus.TabIndex = 15;
             this.bntplus.Text = "+";
             this.bntplus.UseVisualStyleBackColor = true;
+            this.bntplus.Click += new System.EventHandler(this.bntplus_Click);
             // 
             // bntequal
             // 
@@ -98,6 +99,7 @@ namespace Calculator_C1201041
             this.bntequal.TabIndex = 14;
             this.bntequal.Text = "=";
             this.bntequal.UseVisualStyleBackColor = true;
+            this.bntequal.Click += new System.EventHandler(this.bntequal_Click);
             // 
             // bntpoint
             // 
@@ -107,6 +109,7 @@ namespace Calculator_C1201041
             this.bntpoint.TabIndex = 13;
             this.bntpoint.Text = ".";
             this.bntpoint.UseVisualStyleBackColor = true;
+            this.bntpoint.Click += new System.EventHandler(this.bntpoint_Click);
             // 
             // bnt0
             // 
@@ -126,6 +129,7 @@ namespace Calculator_C1201041
             this.bntsub.TabIndex = 11;
             this.bntsub.Text = "-";
             this.bntsub.UseVisualStyleBackColor = true;
+            this.bntsub.Click += new System.EventHandler(this.bntsub_Click);
             // 
             // bnt3
             // 
@@ -165,6 +169,7 @@ namespace Calculator_C1201041
             this.bntmult.TabIndex = 7;
             this.bntmult.Text = "x";
             this.bntmult.UseVisualStyleBackColor = true;
+            this.bntmult.Click += new System.EventHandler(this.bntmult_Click);
             // 
             // bnt6
             // 
@@ -204,6 +209,7 @@ namespace Calculator_C1201041
             this.bntdivided.TabIndex = 3;
             this.bntdivided.Text = "/";
             this.bntdivided.UseVisualStyleBackColor = true;
+            this.bntdivided.Click += new System.EventHandler(this.bntdivided_Click);
             // 
             // bnt9
             // 
@@ -254,6 +260,7 @@ namespace Calculator_C1201041
             this.bntclear.TabIndex = 3;
             this.bntclear.Text = "Clear";
             this.bntclear.UseVisualStyleBackColor = true;
+            this.bntclear.Click += new System.EventHandler(this.bntclear_Click);
             // 
             // bntback
             // 

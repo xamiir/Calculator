@@ -165,7 +165,121 @@ namespace Calculator_C1201041
 
         private void bntback_Click(object sender, EventArgs e)
         {
+            if(!string.IsNullOrWhiteSpace(textBox1.Text))
+            {
+                textBox1.Text = textBox1.Text.Remove(textBox1.Text.Length - 1);
 
+            }
+        }
+
+        private void bntpoint_Click(object sender, EventArgs e)
+        {
+            if (i == 0)
+            {
+                textBox1.Text = ".";
+                i = 1;
+            }
+            else if(!textBox1.Text.Contains("."))
+            {
+                textBox1.Text += ".";
+            }
+        }
+        double var1=0.0 ,var2=0.0;
+        string op = "";
+
+        private void bntsub_Click(object sender, EventArgs e)
+        {
+            if (!string.IsNullOrWhiteSpace(textBox1.Text) && textBox1.Text != ".")
+            {
+                var1 = Convert.ToDouble(textBox1.Text);
+                op = "-";
+                i = 0;
+
+            }
+        }
+
+        private void bntmult_Click(object sender, EventArgs e)
+        {
+            if (!string.IsNullOrWhiteSpace(textBox1.Text) && textBox1.Text != ".")
+            {
+                var1 = Convert.ToDouble(textBox1.Text);
+                op = "x";
+                i = 0;
+
+            }
+        }
+
+        private void bntdivided_Click(object sender, EventArgs e)
+        {
+            if (!string.IsNullOrWhiteSpace(textBox1.Text) && textBox1.Text != ".")
+            {
+                var1 = Convert.ToDouble(textBox1.Text);
+                op = "/";
+                i = 0;
+
+            }
+        }
+
+
+        double result = 0.0;
+        private void bntequal_Click(object sender, EventArgs e)
+        {
+        if (!string.IsNullOrWhiteSpace(textBox1.Text)&& op!= "" && textBox1.Text != ".")
+        {
+                var2 = Convert.ToDouble(textBox1.Text);
+                if(op=="/")
+                {
+                    result = var1 / var2;
+                }
+                else if(op=="+")
+                {
+                    result = var1 + var2;
+
+                }
+                else if (op == "x")
+                {
+                    result = var1 * var2;
+
+                }
+                else if (op == "-")
+                {
+                    result = var1 - var2;
+
+                }
+                textBox1.Text = result.ToString();
+
+
+
+
+            }
+                   
+
+            
+                    
+
+
+
+           
+
+        }
+
+
+
+
+            private void bntclear_Click(object sender, EventArgs e)
+        {
+            textBox1.Clear();
+        }
+
+        private void bntplus_Click(object sender, EventArgs e)
+        {
+            if(!string.IsNullOrWhiteSpace(textBox1.Text) && textBox1.Text!=".")
+            {
+                var1 = Convert.ToDouble(textBox1.Text);
+                op = "+";
+                i = 0;
+
+            }
         }
     }
 }
